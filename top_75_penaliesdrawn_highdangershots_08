@@ -1,0 +1,6 @@
+SELECT playername 
+FROM skaters2008 
+WHERE situation = '5on5' 
+AND penalityMinutesDrawn >= 40
+AND OnIce_F_highDangerShots >= 27
+AND I_F_highDangerShots >=6;
